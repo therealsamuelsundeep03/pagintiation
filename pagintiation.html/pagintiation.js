@@ -45,6 +45,7 @@ function displaydata(x){
     next.addEventListener('click',function(){
       displaydata(z);
       nextdata(z);
+      prevdata(z);
     })
   }
   document.body.append(next)
@@ -68,6 +69,7 @@ function displaydata(x){
    prev.addEventListener('click',function(){
      displaydata(y);
      prevdata(y);
+     nextdata(y);
    })
   }
  document.body.append(prev);
